@@ -1,0 +1,11 @@
+@import "./color";
+
+:root {
+  --background-primary: #{$background-primary-light};
+  --background-secondary: #{$background-secondary-light};
+}
+
+[data-theme="dark"] {
+  --background-primary: #{$background-primary-dark};
+  --background-secondary: #{$background-secondary-dark};
+}

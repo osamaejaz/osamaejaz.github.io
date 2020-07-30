@@ -1,0 +1,8 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./reset";
+
+@import "./theme.scss";
+
+body {
+  background-color: var(--background-primary);
+}
